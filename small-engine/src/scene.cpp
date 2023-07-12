@@ -21,7 +21,6 @@ void Scene::start()
 	// Size | Position | Color
 	player = { 8.0, -90.0, { 1.0f, 1.0f, 0.0f }, { 160, 100 } };
 
-
 	map = { { 8, 8 }, {
 		1, 1, 1, 1, 1, 1, 1, 1,
 		1, 0, 0, 0, 0, 0, 0, 1,
@@ -31,7 +30,7 @@ void Scene::start()
 		1, 0, 0, 0, 0, 0, 0, 1,
 		1, 0, 0, 0, 0, 0, 0, 1,
 		1, 1, 1, 1, 1, 1, 1, 1
-	}, 32.0 };
+	}, 64.0 };
 }
 
 void Scene::update(const float delta)
